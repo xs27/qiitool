@@ -1,0 +1,2 @@
+igapp:
+  image: "nimmis/golang"

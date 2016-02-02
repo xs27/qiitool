@@ -1,0 +1,4 @@
+sinatraapp:
+  image: ownsinatra
+  ports: 
+    - "5000:5000"

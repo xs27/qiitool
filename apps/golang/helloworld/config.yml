@@ -1,0 +1,4 @@
+goapp:
+  image: "owngo/helloworld"
+  ports:
+    - "8080:8080"

@@ -1,0 +1,8 @@
+Failed to set locale, defaulting to C
+warning: /var/cache/yum/x86_64/7/dockerrepo/packages/docker-engine-selinux-1.9.1-1.el7.centos.noarch.rpm: Header V4 RSA/SHA512 Signature, key ID 2c52609d: NOKEY
+Importing GPG key 0x2C52609D:
+ Userid     : "Docker Release Tool (releasedocker) <docker@docker.com>"
+ Fingerprint: 5811 8e89 f3a9 1289 7c07 0adb f762 2157 2c52 609d
+ From       : https://yum.dockerproject.org/gpg
+sh: firewall-cmd: command not found
+sh: firewall-cmd: command not found

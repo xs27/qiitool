@@ -1,0 +1,15 @@
+postdb:
+  image: postgres
+  environment:
+    - "POSTGRES_DB=myproject"
+    - "POSTGRES_USER=myprojectuser"
+    - "POSTGRES_PASSWORD=password"  
+djanapp:
+  image: owndjango
+  command: "python HelloWorld/manage.py runserver 0.0.0.0:8000"
+  volumes:
+    - "$(pwd):/code"
+  ports:
+    - "8000:8000"
+  links:
+    - "postdb:postdb"
