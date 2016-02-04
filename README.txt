@@ -1,4 +1,4 @@
-Welcome to qii, a Quick Installer Tool I've created based with Ruby
+Welcome to qii, a Quick Image Installer tool I've created based with Ruby
 
 Prerequisites:
 - Linux (CentOS)
